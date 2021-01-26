@@ -1,0 +1,55 @@
+body {
+    background-color: #343d52;
+}
+h1 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 26px;
+}
+h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Abel", sans-serif;
+}
+p {
+    font-size: 14px;
+    font-family: "Abel", sans-serif;
+}
+.name-box-container {
+    display: flexbox;
+    padding-bottom: 500px;
+    background-image: url("/resources/images/Steven-Chafin-portrait.png");
+    background-position: 30%;
+    background-size: 40% auto;
+    background-repeat: no-repeat;
+}
+.name-boxes {
+    background-color: #858b97;
+    width: 15%;
+}
+.tagline {
+    background-color: #343d52;
+    width: 15%
+}
+#first-name {
+    text-align: right;
+}
+#last-name {
+    float:right;
+    height: 60px;
+    margin-top: 30em;
+    text-align: left;
+}
+
+.slid-in-boxes-container {
+    display:flexbox;
+}
+.info-box {
+    background-color: #858b97;
+    width: 30%;
+    height: 10em;
+}
+.info-box h2 {
+    text-align: center;
+    background-color: #0FF;
+}
