@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Junior Fullstack Web Dev Steven Chafin</title>
     <link href="style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Share+Tech&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
@@ -23,48 +24,61 @@
         <div class="name-box-container">
             
             <header>
-                <div class="name-boxes" id="first-name">
+                <div class="name-boxes" id="first-name" data-aos="fade-left">
                     <h1 class="name"><h1>Steven</h1>
                 </div>
-                <div class="name-boxes" id="last-name">
+                <div class="name-boxes" id="last-name" data-aos="fade-right">
                     <h1 class="name">Chafin</h1>  
                     
                 </div>
                 
             </header>
         </div>
-        <div class="tagline-container">
+        <div class="tagline-container" data-aos="zoom-in">
             <div class="tagline">
                 <p>SEO SEM Java Javascript HTML CSS React</p>
             </div>
     </section>
-    <div class="slide-in-boxes-container">    
+    <div class="slide-in-boxes-container" >    
         <section id="certs">
-            <div class="info-box">
+            <div class="info-box"data-aos="fade-right">
                 <h2>Certifactions</h2>
+                <p>Google Search Ads, Google Display Ads, Java from Codecademy</p>
             </div>
         </section>
         <section id="projects">
-            <div class="info-box">
+            <div class="info-box" data-aos="fade-left">
                 <h2>Projects</h2>
             </div>
         </section>
         <section id="work-experince">
-            <div class="info-box">
+            <div class="info-box" data-aos="fade-right">
                 <h2>Work Experince</h2>
+                <p>2019-2021 - SEO/SEM Tech - <a href="https://alopexid.com/staff/steven-chafin/">Alopex Interactive Design</a></p>
             </div>
         </section>
         <section id="about-me">
-            <div class="info-box">
+            <div class="info-box" data-aos="fade-left">
                 <h2>About Me</h2>
+                <p>I am a digital native, savy in all things tech. If I don't know something I know how to figure it out, AKA Google it.
+                <br>I am always figuring out how to do my job more effenctaly and effectively
+                <br>I am a classical nerd, love all things Star Trek, Lord of the Rings, sci-fi and fantasy. 
+                <br>My hobbies include, Magic The Gathering, Dungeons & Dragons, boardgames, video games, reading, and coding.
+                <br> I was born in Wrangell, Alaska, a beutiful South-East Alaskan town on an island.
+                <br> Born and raised in Alaska I also find my self camping and hiking a fair amount enjoying the Alaskan scenery while I can.
+                </p>
             </div>
         </section>
-        <section id="contact-me">
+        <section id="contact-me" data-aos="fade-right">
             <div class="info-box">
                 <h2>Contact Me</h2>
                 <p><a href="mailto:stevend.chafin@gmail.com">Email Me</a></p>
             </div>
         </section>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

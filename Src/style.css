@@ -26,6 +26,7 @@ a {
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .navigation h2 {
     display: inline-block;
@@ -73,13 +74,17 @@ a {
     background-color: #858b97;
 }
 
-.slid-in-boxes-container {
-    display:flexbox;
+.slide-in-boxes-container {
+    width: 100%;
+    display:grid;
+    justify-content: center;
 }
 .info-box {
     background-color: #858b97;
-    width: 30%;
+    width: auto;
     height: 10em;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 .info-box h2 {
     text-align: center;
