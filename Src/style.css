@@ -90,4 +90,11 @@ a {
     text-align: center;
     background-color: #0FF;
 }
-
+#email-icon {
+    height: 50%;
+    width: auto;
+}
+#phone-icon {
+    height: 50%;
+    width: auto;
+}
