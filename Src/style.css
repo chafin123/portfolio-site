@@ -90,6 +90,27 @@ a {
     text-align: center;
     background-color: #0FF;
 }
+#certs {
+    text-align: center;
+}
+#certs span {
+    display: none;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    padding: 0;
+    -webkit-transition: 0.50s;
+    transition: 00.50s;
+}
+#certs a:hover span {
+    display: inline;
+    width: auto;
+    overflow: visible;
+    padding: 0 30px;
+}
+#contact-me {
+    text-align: center;
+}
 #email-icon {
     height: 50%;
     width: auto;
