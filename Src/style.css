@@ -15,30 +15,62 @@ p {
     font-size: 14px;
     font-family: "Abel", sans-serif;
 }
+a {
+    color: #0FF;
+    text-decoration: none;
+}
+
+.navigation {
+    text-align: center;
+    background-color: #858b97;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.navigation h2 {
+    display: inline-block;
+
+    border: 1px solid #343d52;
+    background-color: #343d52;
+    
+
+
+}
 .name-box-container {
-    display: flexbox;
+    width: 100%;
+    height: auto;
+    display: grid;
     padding-bottom: 500px;
     background-image: url("/resources/images/Steven-Chafin-portrait.png");
-    background-position: 30%;
-    background-size: 40% auto;
+    background-size: 100% auto;
     background-repeat: no-repeat;
 }
+
 .name-boxes {
-    background-color: #858b97;
-    width: 15%;
+    width: 50%;
+}
+.tagline-container {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
 }
 .tagline {
-    background-color: #343d52;
-    width: 15%
+    background-color: #858b97;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    border-radius: 25px;
 }
 #first-name {
     text-align: right;
 }
 #last-name {
     float:right;
-    height: 60px;
-    margin-top: 30em;
+    margin-top: 52.5%;
+    padding-left: 2px;
     text-align: left;
+    background-color: #858b97;
 }
 
 .slid-in-boxes-container {
@@ -53,3 +85,4 @@ p {
     text-align: center;
     background-color: #0FF;
 }
+
