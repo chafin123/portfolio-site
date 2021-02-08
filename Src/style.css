@@ -67,9 +67,6 @@ ul{
     padding: 5px;
     border-radius: 25px;
 }
-#first-name {
-    text-align: right;
-}
 #last-name {
     float:right;
     margin-top: 50%;
