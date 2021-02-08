@@ -86,15 +86,15 @@ ul{
     background-color: #858b97;
     width: auto;
     height: 10em;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .info-box h2 {
     text-align: center;
     background-color: #0FF;
 }
 #certs {
-    text-align: center;
+    text-align: left;
 }
 #certs span {
     display: none;
