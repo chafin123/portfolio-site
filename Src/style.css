@@ -34,10 +34,10 @@ ul{
 }
 .navigation h2 {
     display: inline-block;
-
+    border-radius: 5px;
     border: 1px solid #343d52;
     background-color: #343d52;
-    
+    padding: 3px;
 
 
 }
@@ -109,6 +109,7 @@ ul{
     padding: 0 30px;
 }
 #contact-me {
+    display: grid;
     text-align: center;
 }
 #email-icon {
@@ -120,6 +121,9 @@ ul{
     width: auto;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px ) {
+    p {
+        font-size: 16px;
+    }
     .navigation {
         display: none;
     }
@@ -130,14 +134,20 @@ ul{
         width: auto;
     }
     #last-name {
-        margin-top: 45%;
+        margin-top: 478;
     }
     .info-box {
         height: auto;
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    p {
+        font-size: 16px;
+    }
     #last-name {
         margin-top: 55%;
+    }
+    .info-box {
+        height: auto;
     }
 }
