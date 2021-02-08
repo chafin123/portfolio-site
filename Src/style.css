@@ -19,7 +19,9 @@ a {
     color: #0FF;
     text-decoration: none;
 }
-
+ul{
+    list-style-type: none;
+}
 .navigation {
     text-align: center;
     background-color: #858b97;
@@ -27,6 +29,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 1;
+    padding: 1px;
 }
 .navigation h2 {
     display: inline-block;
@@ -68,10 +71,9 @@ a {
 }
 #last-name {
     float:right;
-    margin-top: 52.5%;
+    margin-top: 50%;
     padding-left: 2px;
     text-align: left;
-    background-color: #858b97;
 }
 
 .slide-in-boxes-container {
@@ -118,4 +120,18 @@ a {
 #phone-icon {
     height: 50%;
     width: auto;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px ) {
+    .navigation {
+        display: none;
+    }
+    .name-box-container {
+        padding-bottom: 400px;
+    }
+    #last-name {
+        margin-top: 45%;
+    }
+    .info-box {
+        height: auto;
+    }
 }
