@@ -100,9 +100,27 @@ ul{
     width: 0;
     padding: 0;
     -webkit-transition: 0.50s;
-    transition: 00.50s;
+    transition: 0.50s;
 }
 #certs a:hover span {
+    display: inline;
+    width: auto;
+    overflow: visible;
+    padding: 0 30px;
+}
+#work-experince {
+    text-align: left;
+}
+#work-experince span {
+    display: none;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    padding: 0;
+    -webkit-transition: 0.50s;
+    transition: 0.50s;
+}
+#work-experince a:hover span {
     display: inline;
     width: auto;
     overflow: visible;
