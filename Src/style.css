@@ -82,7 +82,7 @@ ul{
 .info-box {
     background-color: #858b97;
     width: auto;
-    height: 10em;
+    height: auto;
     padding-left: 40px;
     padding-right: 40px;
 }
